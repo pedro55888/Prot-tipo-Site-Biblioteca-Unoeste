@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Cadastro</title>
 </head>
 <body>
@@ -10,21 +11,23 @@
     <h1>Crie Sua Conta Aqui!</h1>
     
 
-         <input type="text" name="email" placeholder="E-mail">
-        </p>
-        <p>
-            
-            <input type="password" name="senha" placeholder="Senha">
-        </p>
-        <p>
+  <form action="painel.html" method="get">
+    <input type="text" name="email" placeholder="E-mail" required>
 
-            <input type="password" name="Conf_Senha" placeholder="Confirme Sua Senha">
-            <br>
-            <br>
-            <p>Criar Conta<a href="painel.html">Crie Uma</a></p>
+    <input type="password" name="senha" placeholder="Senha" required>
+
+    <input type="password" name="Repete_Senha" placeholder="Confirme Sua Senha" required>
+
+    <button type="submit">Criar Conta</button>
+</form>
+
+
+
             
 
-        </p>
+</p>
+
+<a href="index.html">Voltar</a>
 
 </body>
 </html>

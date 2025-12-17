@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +10,20 @@
     
 <h1>Bem-Vindo</h1>
 
-<h2>Acesse Sua Conta</h2>
+<h2>Faça seu Login</h2>
 
-         <input type="text" name="email" placeholder="E-mail">
-        </p>
-        <p>
-            
-            <input type="password" name="senha" placeholder="Senha">
-        </p>
-        <p>
-            <button type="submit">Entrar</button>
-            <p>Ainda não tem uma Conta?<a href="cadastro.html">Crie Uma</a></p>
+ <form action="painel.html" method="get">
+    <input type="text" name="email" placeholder="E-mail" required>
 
-        </p>
+    <input type="password" name="senha" placeholder="Senha" required>
+
+    <button type="submit">Fazer Login</button>
+</form>
+
+<p>
+    Ainda não tem uma Conta?
+    <a href="cadastro.html">Crie Uma</a>
+</p>
 
 </body>
 </html>
